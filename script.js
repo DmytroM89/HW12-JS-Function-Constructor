@@ -10,7 +10,7 @@ function Hamburger(size) {
     this.addModifier = (modifier) => {
         this.burger.price += modifier.price;
         this.burger.calories += modifier.calories;
-        this.modifiers.push(modifier.name);
+        this.modifiers.push(modifier);
     }
 }
 
